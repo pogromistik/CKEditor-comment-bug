@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="https://cdn.ckeditor.com/ckeditor5/15.0.0/balloon/ckeditor.js"></script>
+    </head>
+    <body>
+        <div id="editor">
+            <!---->
+            <p>text</p>
+        </div>
+
+        <script>
+                BalloonEditor
+                    .create( document.querySelector( '#editor' ) )
+                    .catch( error => {
+                        console.error( error );
+                    } );
+            </script>
+    </body>
+</html>
