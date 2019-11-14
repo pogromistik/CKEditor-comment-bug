@@ -1,1 +1,1 @@
-# CKEditor-comment-bug
+# CKEditor 5 comments bug
